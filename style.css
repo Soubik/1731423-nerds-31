@@ -1,0 +1,253 @@
+:root {
+    --basic-black: #000000;
+    --basic-extra-black: #283136;
+    --basic-extra-white: #EEEEEE;
+    --basic-red: #FB565A;
+    --basic-yellow:#EFC849;
+    --basic-gray:#E1E1E1;
+    --basic-white: #ffffff;
+    --basic-green:#00CA74;
+    --basic-extra-gray:#4D4D4D;
+    --basic-light-gray: #666666;
+
+
+
+
+  }
+  body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-extra-black);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--basic-black);
+    background-color: transparent;
+  }
+  
+  .main-navigation-wrapper {
+    background-color: var(--basic-extra-white);
+  }
+  .site-navigation {
+    list-style: none;
+  }
+
+  .site-navigation-current a:not([href]) {
+    background-color: var(--basic-extra-white);
+  }
+  
+  .site-navigation a,
+  .user-navigation a {
+    color: var(--basic-black);
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus,
+  .user-navigation a:hover,
+  .user-navigation a:focus {
+    background-color: var(--basic-extra-white);
+  }
+
+  .features {
+    list-style: none;
+    text-align: left;
+  }
+  
+  .feature-item {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: bold;
+  }
+  .slide {
+      background-position: right;
+  }
+  
+  .offers-item {
+    text-align: center;
+  }
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform:uppercase; 
+  }
+
+  .item, .logo-color {
+    background-position: top;
+  }
+
+  .aboutUs-item {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: bold;
+  }
+
+  .aboutUs {
+    text-align: left;
+  }
+ 
+  .aboutUs-subtitle {
+    font-weight: bold;
+    text-transform:uppercase; 
+  }
+
+  .aboutUs2 {
+    text-align: center;
+  }
+
+  .numbers {
+    font-size: 45px;
+    line-height: 64px;
+    font-weight: bold;
+  }
+
+  .sites {
+    background-position: center;
+} 
+.footer-social {
+    text-align: center;
+}
+.link {
+    color: var(--basic-white);
+}
+
+.call{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold; 
+}
+
+.appointment-info{
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: bold; 
+}
+.appointment-item{
+    font-weight: bold; 
+}
+
+.social-button {
+    position: absolute;
+    width: 78.25px;
+    height: 78.25px;
+    left: 141.54px;
+    top: 2328.21px;
+    
+    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+}
+.container {
+font-size: 16px;
+    line-height: 20px;
+}
+
+.header {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filter legend {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+.filter ul {
+    list-style: none;
+    color: var(--basic-extra-black);
+  }
+  
+.section1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+.catalog-list {
+    list-style: none;
+  }
+  
+  .catalog-item {
+    background-color: var(--basic-extra-gray);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.catalog-item a {
+    color: var( --basic-light-gray);
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+ 
+  .pagination-list {
+    list-style: none;
+  }
+
+  .pagination-item a {
+    color: var( --basic-black);
+    background-color: var(--basic-extra-white);
+  }
+  
+  .pagination-item a:hover,
+  .pagination-item a:focus,
+  .pagination-item a:active {
+    background-color: var(--basic-extra-gray);
+  }
+
+  .pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.red {
+    background-color: var(--basic-red);
+}
+
+.green {
+    background-color: var(--basic-green);
+}
+
+.yellow {
+    background-color: var(--basic-yellow);
+}
+
+.button,
+.number,
+.login-link {
+    color: var(--basic-black);
+    text-decoration: none;
+}
+
+.offers-item,
+.about,
+.sites-blok {
+list-style: none;
+}
+
+.more {
+   color: var(--basic-white);
+}
