@@ -53,7 +53,6 @@ img {
 .main-navigation {
   display: grid;
   grid-template-columns: min-content;
-  display: grid;
   font-size: 16px;
   line-height: 30px;
   color: var(--basic-black);
@@ -213,14 +212,22 @@ h3 {
 .footer-social{
   display: grid;
   grid-template-columns: 400px 660px;
-}
-
-.footer-social {
   text-align: center;
 }
+
 .link {
+  display: flex;
   color: var(--basic-white);
+  flex-shrink: 0;
 }
+
+.icon {
+  padding: 70px 0 75px;
+  background-color: var(--basic-gray);
+  border-radius:50%;
+  flex-shrink: 0;
+}
+
 
 .call{
   font-size: 36px;
@@ -343,8 +350,3 @@ list-style: none;
 .more {
  color: var(--basic-white);
 } 
-.icon {
-  padding: 70px 0 75px;
-  background-color: var(--basic-gray);
-  border-radius:50%;
-}
