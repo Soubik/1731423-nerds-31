@@ -46,30 +46,33 @@ img {
 }
 
 .main-header {
-  margin-bottom: 5px;
- 
+  margin: 50px 135px 5px 150px;
+  background-color: var(--basic-extra-white);
 }
 
+
+
 .main-navigation {
-  display: grid;
-  grid-template-columns: min-content;
+  
   font-size: 16px;
   line-height: 30px;
   color: var(--basic-black);
   background-color: transparent;
   
 }
-.main-header-logo {
-  justify-self: start;
-}
 
-.main-header-bar {
-  background-color: var(--basic-extra-white);
-  display: grid;
-  grid-template-columns:  min-content;
-  width: 1157px;
+
+.main-header-bar { 
+  display: inline;
   margin: 50px auto 5px auto;
   padding: 25px 0 5px 0;
+}
+
+.basket-navigation,
+.main-header-bar,
+.logo{
+  display: flex;
+  justify-content: space-between;
 }
 
 .site-navigation{
@@ -93,16 +96,17 @@ img {
 
 .container {
   width: 1157px;
-  margin: 0 140px;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
 .features {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   text-align: left;
   margin-bottom: 80px;
-  grid-template-columns: 400px auto ;
+  background-color: var(--basic-extra-white);
 }
 
 .feature-item {
@@ -218,9 +222,20 @@ h3 {
 .link {
   display: flex;
   color: var(--basic-white);
-  flex-shrink: 0;
 }
 
+.link li{
+  position: relative;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  border-radius:50%;
+}
+
+.link li:not(:first-child){
+  margin-left: 20px;
+}
 .icon {
   padding: 70px 0 75px;
   background-color: var(--basic-gray);
@@ -246,12 +261,15 @@ h3 {
 
 .social-button {
   position: absolute;
-  width: 78.25px;
-  height: 78.25px;
-  left: 141.54px;
-  top: 2328.21px;
-
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
 font-size: 16px;
@@ -350,3 +368,7 @@ list-style: none;
 .more {
  color: var(--basic-white);
 } 
+
+main{
+  display: block;
+}
